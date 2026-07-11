@@ -93,7 +93,7 @@ logica-programacao/
 | 17 | Estruturas de dados (introdução) | 🔜 Em breve |
 | 18 | Complexidade de algoritmos | 🔜 Em breve |
 | 19 | Resolução de problemas | 🔜 Em breve |
-| 20 | Preparação para entrevistas | 🔜 Em breve |
+
 
 ---
 
