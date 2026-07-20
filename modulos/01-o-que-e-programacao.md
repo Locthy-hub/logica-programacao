@@ -55,7 +55,7 @@ Quando dizemos "lógica de programação", estamos falando da capacidade de **qu
 
 ### Analogia: o GPS
 
-Pense em um GPS. Quando você pede uma rota, ele não te dá o destino de uma vez — ele te dá uma sequência de instruções:
+Pense em um GPS. Quando você pede uma rota, ele não te dá o destino de uma vez, ele te dá uma sequência de instruções:
 
 ```
 1. Siga em frente por 300 metros
@@ -77,11 +77,11 @@ Aqui está uma verdade importante, e talvez um pouco desconfortável:
 
 > **Computadores não pensam. Computadores obedecem.**
 
-Um computador não tem bom senso, não "entende" o que você quis dizer, não deduz intenções. Ele faz **exatamente** o que você mandou — nem mais, nem menos.
+Um computador não tem bom senso, não "entende" o que você quis dizer, não deduz intenções. Ele faz **exatamente** o que você mandou, nem mais, nem menos.
 
 ### Analogia: o gênio da lâmpada literal
 
-Imagine um gênio da lâmpada que realiza qualquer desejo, mas de forma **extremamente literal**. Se você disser "quero ficar milionário", ele pode reduzir todo o dinheiro do mundo a um dólar, para que o pouco que você tem já te torne, tecnicamente, "o mais rico". Ele não fez nada de errado — ele fez exatamente o que você pediu, só que você não foi específico o suficiente.
+Imagine um gênio da lâmpada que realiza qualquer desejo, mas de forma **extremamente literal**. Se você disser "quero ficar milionário", ele pode reduzir todo o dinheiro do mundo a um dólar, para que o pouco que você tem já te torne, tecnicamente, "o mais rico". Ele não fez nada de errado, ele fez exatamente o que você pediu, só que você não foi específico o suficiente.
 
 Computadores são assim. Por isso, um dos maiores desafios de quem está aprendendo a programar não é a sintaxe (os comandos), e sim **aprender a ser extremamente específico e claro** ao descrever os passos de um problema.
 
@@ -89,7 +89,7 @@ Computadores são assim. Por isso, um dos maiores desafios de quem está aprende
 
 Nos bastidores, tudo que um computador processa vira, no final das contas, uma sequência de **0s e 1s** (bits), que representam sinais elétricos ligados ou desligados. Programar em uma linguagem como Python, Java ou JavaScript é uma forma de escrever instruções de um jeito legível para humanos, que depois é **traduzido** (compilado ou interpretado) para essa linguagem de máquina.
 
-Você não precisa entender tudo isso agora — só precisa saber que existe uma "tradução" acontecendo, e que por isso o computador exige **precisão absoluta**: um erro de digitação pode fazer tudo parar de funcionar.
+Você não precisa entender tudo isso agora, só precisa saber que existe uma "tradução" acontecendo, e que por isso o computador exige **precisão absoluta**: um erro de digitação pode fazer tudo parar de funcionar.
 
 ---
 
@@ -154,7 +154,7 @@ INÍCIO
 FIM
 ```
 
-Não se preocupe em entender cada símbolo agora — o importante é que você **enxergue o padrão**: primeiro entra informação, depois ela é processada, depois sai um resultado. Esse padrão vai se repetir em praticamente tudo que você programar dali pra frente, seja um joguinho, um sistema bancário ou um site.
+Não se preocupe em entender cada símbolo agora, o importante é que você **enxergue o padrão**: primeiro entra informação, depois ela é processada, depois sai um resultado. Esse padrão vai se repetir em praticamente tudo que você programar dali pra frente, seja um joguinho, um sistema bancário ou um site.
 
 ---
 
@@ -162,9 +162,9 @@ Não se preocupe em entender cada símbolo agora — o importante é que você *
 
 Muita gente comete o erro de tentar aprender Python, Java ou C++ direto, sem entender lógica antes. É como tentar aprender a compor músicas complexas sem antes saber o que são notas musicais.
 
-A lógica de programação é **independente de linguagem**. Uma vez que você entende como estruturar um algoritmo — como fazer o computador repetir uma tarefa, tomar uma decisão, guardar um valor — você consegue aplicar isso em **qualquer linguagem**, porque a estrutura de pensamento é a mesma. Só muda a "sotaque" (a sintaxe).
+A lógica de programação é **independente de linguagem**. Uma vez que você entende como estruturar um algoritmo, como fazer o computador repetir uma tarefa, tomar uma decisão, guardar um valor, você consegue aplicar isso em **qualquer linguagem**, porque a estrutura de pensamento é a mesma. Só muda a "sotaque" (a sintaxe).
 
-É por isso que, neste curso, vamos usar **pseudocódigo/Portugol**: uma forma de escrever algoritmos em português estruturado, sem nos prendermos às regras específicas de uma linguagem de programação real. Assim, quando você for aprender Python ou Java depois, vai perceber que já sabe 80% do caminho — só falta aprender a "sintaxe" daquela linguagem específica.
+É por isso que, neste curso, vamos usar **pseudocódigo/Portugol**: uma forma de escrever algoritmos em português estruturado, sem nos prendermos às regras específicas de uma linguagem de programação real. Assim, quando você for aprender Python ou Java depois, vai perceber que já sabe 80% do caminho, só falta aprender a "sintaxe" daquela linguagem específica.
 
 ---
 
@@ -173,13 +173,13 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 ```
                      PROGRAMAÇÃO
                           │
-          ┌───────────────┼───────────────┐
+          ┌───────────────┼────────────────┐
           │                                │
       ALGORITMO                        LÓGICA
   (sequência de passos             (raciocínio para
    para resolver um problema)       chegar à solução)
           │                                │
-          └───────────────┬───────────────┘
+          └───────────────┬────────────────┘
                           │
                  COMPUTADOR OBEDECE
               (não pensa, executa exatamente
@@ -196,9 +196,9 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 
 ## 💡 Erros comuns de quem está começando
 
-1. **Achar que o computador "entende" a intenção.** Ele não entende — ele executa exatamente o que foi escrito, então a precisão é essencial.
+1. **Achar que o computador "entende" a intenção.** Ele não entende, ele executa exatamente o que foi escrito, então a precisão é essencial.
 2. **Tentar aprender uma linguagem antes de entender lógica.** Isso costuma gerar frustração, porque a pessoa decora comandos sem entender o raciocínio por trás.
-3. **Pular etapas dos algoritmos.** Achar que um passo é "óbvio" e não escrevê-lo — para você pode ser óbvio, para o computador nunca é.
+3. **Pular etapas dos algoritmos.** Achar que um passo é "óbvio" e não escrevê-lo, para você pode ser óbvio, para o computador nunca é.
 4. **Confundir "não saber programar" com "não ter lógica".** Todo mundo tem lógica (você usa isso o tempo todo na vida real); o que falta é **treino** para aplicá-la a problemas computacionais.
 
 ---
@@ -214,8 +214,8 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 ## 🤔 Curiosidades
 
 - A palavra **"algoritmo"** vem do nome do matemático persa **Al-Khwarizmi**, que viveu no século IX e escreveu métodos sistemáticos para resolver problemas matemáticos.
-- A primeira pessoa considerada "programadora da história" foi **Ada Lovelace**, no século XIX — ela escreveu instruções para uma máquina de calcular (a Máquina Analítica de Charles Babbage) décadas antes de existir qualquer computador eletrônico.
-- Existe uma expressão famosa entre programadores: **"Garbage in, garbage out"** ("lixo entra, lixo sai") — se a entrada de dados for ruim ou errada, a saída também será, não importa o quão bom seja o processamento.
+- A primeira pessoa considerada "programadora da história" foi **Ada Lovelace**, no século XIX, ela escreveu instruções para uma máquina de calcular (a Máquina Analítica de Charles Babbage) décadas antes de existir qualquer computador eletrônico.
+- Existe uma expressão famosa entre programadores: **"Garbage in, garbage out"** ("lixo entra, lixo sai"), se a entrada de dados for ruim ou errada, a saída também será, não importa o quão bom seja o processamento.
 
 ---
 
@@ -248,7 +248,7 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 ### Desafios
 
 16. **Desafio do robô doméstico:** Escreva um algoritmo extremamente detalhado para um robô fazer um sanduíche de queijo, assumindo que ele não sabe absolutamente nada (nem que é preciso abrir a embalagem do pão, por exemplo).
-17. **Desafio da lógica invertida:** Pegue o algoritmo da receita de bolo do início do módulo e reescreva-o para "desfazer" o bolo — ou seja, pense na lógica inversa dos passos (isso ajuda a treinar o raciocínio sequencial).
+17. **Desafio da lógica invertida:** Pegue o algoritmo da receita de bolo do início do módulo e reescreva-o para "desfazer" o bolo, ou seja, pense na lógica inversa dos passos (isso ajuda a treinar o raciocínio sequencial).
 
 ---
 
@@ -263,7 +263,7 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 5. Encaixe a lâmpada nova girando-a no sentido horário
 6. Ligue o interruptor para testar
 ```
-*Por que importa:* repare que "desligar o interruptor" vem antes de mexer na lâmpada — a ordem aqui não é só lógica, é uma questão de segurança. Isso mostra como a ordem dos passos pode ter consequências reais.
+*Por que importa:* repare que "desligar o interruptor" vem antes de mexer na lâmpada, a ordem aqui não é só lógica, é uma questão de segurança. Isso mostra como a ordem dos passos pode ter consequências reais.
 
 **2.** Exemplo de resposta:
 ```
@@ -274,7 +274,7 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 5. Se não houver carros vindo, atravesse
 6. Se houver carros, aguarde e repita o processo
 ```
-*Por que importa:* note o passo 6 — ele faz o algoritmo "esperar" até que a condição seja satisfeita. Isso é um prenúncio do que vamos estudar no Módulo 7 (estruturas de repetição)!
+*Por que importa:* note o passo 6, ele faz o algoritmo "esperar" até que a condição seja satisfeita. Isso é um prenúncio do que vamos estudar no Módulo 7 (estruturas de repetição)!
 
 **3.**
 - ENTRADA: os dois números digitados pelo usuário.
@@ -283,7 +283,7 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 
 **4.** Algoritmo é a sequência de passos em si (o "roteiro"). Lógica é a capacidade de raciocínio usada para **construir** esse roteiro de forma coerente e eficaz. Uma pessoa com boa lógica consegue criar bons algoritmos.
 
-**5.** Resposta livre — o importante é perceber que algoritmos estão em todo lugar: rotina de academia, montar uma lista de compras, organizar um guarda-roupa, etc.
+**5.** Resposta livre: o importante é perceber que algoritmos estão em todo lugar: rotina de academia, montar uma lista de compras, organizar um guarda-roupa, etc.
 
 **6.**
 ```
@@ -293,7 +293,7 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 4. Caso contrário, o número é ímpar
 5. Mostre o resultado
 ```
-*Por que importa:* essa ideia de "resto da divisão por 2" (chamada de operador módulo) vai aparecer formalmente no Módulo 4 (Operadores). Aqui você já praticou o raciocínio antes de aprender o nome técnico — é assim que este curso funciona.
+*Por que importa:* essa ideia de "resto da divisão por 2" (chamada de operador módulo) vai aparecer formalmente no Módulo 4 (Operadores). Aqui você já praticou o raciocínio antes de aprender o nome técnico, é assim que este curso funciona.
 
 **7.**
 ```
@@ -310,9 +310,9 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 3. Calcule: troco = valor pago - valor da compra
 4. Mostre o troco
 ```
-*Atenção (erro comum):* muitos iniciantes esquecem de verificar se o valor pago é suficiente. Um algoritmo mais completo verificaria isso antes de calcular o troco — vamos formalizar essa ideia no Módulo 6.
+*Atenção (erro comum):* muitos iniciantes esquecem de verificar se o valor pago é suficiente. Um algoritmo mais completo verificaria isso antes de calcular o troco, vamos formalizar essa ideia no Módulo 6.
 
-**9.** Resposta livre, mas deve deixar claro que trocar a ordem de passos dependentes muda o resultado — por exemplo, "vestir os sapatos" antes de "vestir as meias" resulta em algo fisicamente impossível ou incorreto.
+**9.** Resposta livre, mas deve deixar claro que trocar a ordem de passos dependentes muda o resultado, por exemplo, "vestir os sapatos" antes de "vestir as meias" resulta em algo fisicamente impossível ou incorreto.
 
 **10.** Exemplo: "Processe os dados do cliente" pode virar "Some o valor total das compras do cliente e aplique 10% de desconto se o total for maior que R$100". Quanto mais específico, melhor.
 
@@ -334,9 +334,9 @@ A lógica de programação é **independente de linguagem**. Uma vez que você e
 5. Se houver adulto acompanhando e a diferença de idade for aceitável, permita a entrada
 6. Caso contrário, não permita a entrada
 ```
-*Por que é difícil:* este exercício tem múltiplas condições combinadas — é um ótimo prenúncio dos operadores lógicos (E / OU) que veremos no Módulo 4.
+*Por que é difícil:* este exercício tem múltiplas condições combinadas, é um ótimo prenúncio dos operadores lógicos (E / OU) que veremos no Módulo 4.
 
-**13.** Envolve comparar A com B, depois o resultado com C, trocando posições até ficar em ordem — essa é a semente da lógica por trás dos algoritmos de ordenação que veremos a fundo no Módulo 14 (Bubble Sort, Selection Sort, etc.).
+**13.** Envolve comparar A com B, depois o resultado com C, trocando posições até ficar em ordem, essa é a semente da lógica por trás dos algoritmos de ordenação que veremos a fundo no Módulo 14 (Bubble Sort, Selection Sort, etc.).
 
 **14.** "Ligue a luz se estiver escuro" não diz *onde*, *quando* medir se está escuro, nem *qual* luz. Versão melhor: "Meça a luminosidade do ambiente às 18h; se for menor que 30%, ligue a luz da sala."
 
@@ -348,9 +348,9 @@ PROCESSAMENTO: validar se os dados foram preenchidos corretamente,
 SAÍDA: confirmação de cadastro + valor total em estoque
 ```
 
-**16.** Não existe resposta única — o objetivo é que você perceba o quão "burro" (literal) um computador realmente é. Bons exemplos incluem passos como "abra a embalagem do pão puxando pela lateral perfurada" em vez de apenas "abra o pão".
+**16.** Não existe resposta única, o objetivo é que você perceba o quão "burro" (literal) um computador realmente é. Bons exemplos incluem passos como "abra a embalagem do pão puxando pela lateral perfurada" em vez de apenas "abra o pão".
 
-**17.** Também sem resposta única — o valor está em treinar a mente a pensar em sequências reversas, uma habilidade útil mais adiante (por exemplo, ao estudar pilhas, no Módulo 17).
+**17.** Também sem resposta única, o valor está em treinar a mente a pensar em sequências reversas, uma habilidade útil mais adiante (por exemplo, ao estudar pilhas, no Módulo 17).
 
 ---
 
