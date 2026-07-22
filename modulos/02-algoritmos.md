@@ -1,6 +1,6 @@
 # Módulo 2 — Algoritmos
 
-> No Módulo 1 você entendeu **o que é** um algoritmo. Agora vamos aprender a **representá-lo formalmente** — de um jeito organizado, que qualquer pessoa (ou você mesmo, dias depois) consiga entender e seguir.
+> No Módulo 1 você entendeu **o que é** um algoritmo. Agora vamos aprender a **representá-lo formalmente**, de um jeito organizado, que qualquer pessoa (ou você mesmo, dias depois) consiga entender e seguir.
 
 ---
 
@@ -22,7 +22,7 @@ Veja esse "algoritmo" com a ordem errada:
 3. Coloque a roupa na máquina
 ```
 
-Está tecnicamente com os mesmos passos de lavar roupa, mas a **ordem** transformou algo sensato em um absurdo. Um computador executaria isso exatamente como está escrito — sem perceber o erro, porque ele não "entende" o sentido, só **obedece a ordem**.
+Está tecnicamente com os mesmos passos de lavar roupa, mas a **ordem** transformou algo sensato em um absurdo. Um computador executaria isso exatamente como está escrito, sem perceber o erro, porque ele não "entende" o sentido, só **obedece a ordem**.
 
 A versão correta:
 
@@ -34,7 +34,7 @@ A versão correta:
 
 > 💡 **Regra de ouro:** cada passo de um algoritmo sequencial depende do(s) anterior(es) terem sido concluídos. Mude a ordem, mude (ou quebre) o resultado.
 
-Até aqui, todos os algoritmos que vimos no Módulo 1 eram **sequenciais**: passo 1, depois passo 2, depois passo 3, sem desvios. Nos módulos 6 e 7 vamos aprender a "quebrar" essa sequência com decisões (`se`) e repetições (`enquanto`) — mas antes disso, precisamos dominar bem a base: escrever e representar sequências.
+Até aqui, todos os algoritmos que vimos no Módulo 1 eram **sequenciais**: passo 1, depois passo 2, depois passo 3, sem desvios. Nos módulos 6 e 7 vamos aprender a "quebrar" essa sequência com decisões (`se`) e repetições (`enquanto`), mas antes disso, precisamos dominar bem a base: escrever e representar sequências.
 
 ---
 
@@ -64,10 +64,10 @@ Porque o cérebro humano processa muito bem informação visual. Antes de escrev
    └────┬────┘
         │
         ▼
-      ╱   ╲
+      ╱    ╲
      ╱  X>0 ╲    ← Losango: DECISÃO (verdadeiro ou falso)
-     ╲       ╱
-      ╲     ╱
+     ╲      ╱
+      ╲    ╱
         │
         ▼
    ┌─────────┐
@@ -94,7 +94,7 @@ Porque o cérebro humano processa muito bem informação visual. Antes de escrev
       │  Leia nota1    │
       └───────┬────────┘
               ▼
-      ┌───────────────┐
+      ┌────────────────┐
       │  Leia nota2    │
       └───────┬────────┘
               ▼
@@ -111,7 +111,7 @@ Porque o cérebro humano processa muito bem informação visual. Antes de escrev
         └───────────┘
 ```
 
-Repare como o fluxograma "traduz" visualmente o mesmo algoritmo que já vimos no Módulo 1 em pseudocódigo. Ambas as formas representam a **mesma lógica** — só mudam a forma de expressar.
+Repare como o fluxograma "traduz" visualmente o mesmo algoritmo que já vimos no Módulo 1 em pseudocódigo. Ambas as formas representam a **mesma lógica**, só mudam a forma de expressar.
 
 ### Exemplo com decisão: verificar se um número é par ou ímpar
 
@@ -124,11 +124,11 @@ Repare como o fluxograma "traduz" visualmente o mesmo algoritmo que já vimos no
             │  Leia número   │
             └───────┬────────┘
                     ▼
-                  ╱      ╲
-                ╱ número  ╲
-               ╱ % 2 == 0? ╲
-                ╲          ╱
-                 ╲        ╱
+                ╱      ╲
+               ╱ número ╲
+              ╱ % 2== 0? ╲
+              ╲          ╱
+               ╲        ╱
                Sim │    │ Não
                     ▼    ▼
           ┌──────────┐ ┌──────────┐
@@ -142,7 +142,7 @@ Repare como o fluxograma "traduz" visualmente o mesmo algoritmo que já vimos no
                  └───────────┘
 ```
 
-Note que, a partir do losango (decisão), o fluxo **se divide em dois caminhos possíveis**, e depois os dois caminhos voltam a se unir antes do fim. Essa é a primeira vez que vemos um algoritmo **não puramente sequencial** — ele tem um "desvio" dependendo de uma condição. Vamos aprofundar isso a fundo no Módulo 6.
+Note que, a partir do losango (decisão), o fluxo **se divide em dois caminhos possíveis**, e depois os dois caminhos voltam a se unir antes do fim. Essa é a primeira vez que vemos um algoritmo **não puramente sequencial** , ele tem um "desvio" dependendo de uma condição. Vamos aprofundar isso a fundo no Módulo 6.
 
 ---
 
@@ -182,7 +182,7 @@ FIM
 | `ENQUANTO ... FAÇA` | Estrutura de repetição (Módulo 7) |
 | `PARA ... FAÇA` | Estrutura de repetição com contador (Módulo 7) |
 
-Não se preocupe em decorar tudo agora — vamos usar essas palavras à exaustão nos próximos módulos, e elas vão se tornar naturais com a prática.
+Não se preocupe em decorar tudo agora, vamos usar essas palavras à exaustão nos próximos módulos, e elas vão se tornar naturais com a prática.
 
 ### Exemplo: calcular a área de um retângulo
 
@@ -195,19 +195,19 @@ INÍCIO
 FIM
 ```
 
-Repare que isso é exatamente o mesmo algoritmo que poderíamos desenhar como fluxograma. **Pseudocódigo e fluxograma são duas representações diferentes da mesma lógica** — algumas pessoas preferem visualizar em fluxograma, outras preferem escrever direto em pseudocódigo. Ambas as habilidades são úteis, e vamos treinar as duas ao longo do curso.
+Repare que isso é exatamente o mesmo algoritmo que poderíamos desenhar como fluxograma. **Pseudocódigo e fluxograma são duas representações diferentes da mesma lógica**, algumas pessoas preferem visualizar em fluxograma, outras preferem escrever direto em pseudocódigo. Ambas as habilidades são úteis, e vamos treinar as duas ao longo do curso.
 
 ---
 
 ## 2.4 — Portugol: o "pseudocódigo padronizado" brasileiro
 
-**Portugol** é uma linguagem de programação didática, criada especificamente para ensinar lógica de programação para falantes de português. É basicamente um pseudocódigo com regras mais fixas — tem uma sintaxe mais parecida com uma linguagem de programação de verdade, mas usando palavras em português.
+**Portugol** é uma linguagem de programação didática, criada especificamente para ensinar lógica de programação para falantes de português. É basicamente um pseudocódigo com regras mais fixas, tem uma sintaxe mais parecida com uma linguagem de programação de verdade, mas usando palavras em português.
 
 ### Por que aprender Portugol?
 
-Porque ele funciona como uma "ponte" entre o pseudocódigo livre (que temos usado até aqui) e uma linguagem de programação real. No Portugol, você já pratica conceitos como declaração de tipos de variáveis, blocos de código bem delimitados, etc. — sem a barreira do inglês técnico das linguagens comerciais.
+Porque ele funciona como uma "ponte" entre o pseudocódigo livre (que temos usado até aqui) e uma linguagem de programação real. No Portugol, você já pratica conceitos como declaração de tipos de variáveis, blocos de código bem delimitados, etc. Sem a barreira do inglês técnico das linguagens comerciais.
 
-Existe até uma ferramenta gratuita e muito usada em cursos técnicos e faculdades chamada **VisuAlg**, que interpreta e executa código em Portugol, mostrando o resultado passo a passo — ótima para quem está começando.
+Existe até uma ferramenta gratuita e muito usada em cursos técnicos e faculdades chamada **VisuAlg**, que interpreta e executa código em Portugol, mostrando o resultado passo a passo, ótima para quem está começando.
 
 ### Estrutura básica de um programa em Portugol (estilo VisuAlg)
 
@@ -235,7 +235,7 @@ Repare nas diferenças em relação ao pseudocódigo mais "livre" que usamos ant
 2. O algoritmo tem um nome, entre aspas.
 3. `inicio` e `fimalgoritmo` delimitam claramente onde o código "roda" de fato.
 
-Isso é **exatamente** a estrutura que você vai encontrar em linguagens reais como C, Java ou Python (cada uma com sua própria sintaxe) — então praticar Portugol já é um treino direto para o que vem depois.
+Isso é **exatamente** a estrutura que você vai encontrar em linguagens reais como C, Java ou Python (cada uma com sua própria sintaxe), então praticar Portugol já é um treino direto para o que vem depois.
 
 > 📌 **Neste curso**, vamos alternar entre pseudocódigo livre (mais didático para explicar conceitos novos) e blocos em estilo Portugol (para você já se acostumar com uma sintaxe mais próxima de código real). Os exercícios podem ser resolvidos em qualquer um dos dois formatos.
 
@@ -302,7 +302,7 @@ Perceba: a **lógica** é idêntica nas quatro formas. O que muda é só a "roup
   um após o outro)    visual com formas      parecida com código real)
                        e setas)
         │                    │                    │
-        └────────────────────┴─────────────────────┘
+        └────────────────────┴────────────────────┘
                              │
                         TODAS REPRESENTAM
                          A MESMA LÓGICA
@@ -313,17 +313,17 @@ Perceba: a **lógica** é idêntica nas quatro formas. O que muda é só a "roup
 ## 💡 Erros comuns de quem está começando
 
 1. **Trocar a ordem dos passos "porque parece mais natural falar assim".** Sempre valide se a ordem escrita realmente resolve o problema, passo a passo, como se você fosse o computador executando.
-2. **Desenhar fluxogramas sem seta de direção clara.** Todo fluxograma precisa deixar óbvio "o que vem depois do quê" — sem isso, ele perde a utilidade.
-3. **Esquecer de fechar as estruturas no pseudocódigo/Portugol** (por exemplo, esquecer o `FIM SE` ou `fimse`) — isso é como abrir um parêntese e não fechar.
-4. **Confundir "declarar uma variável" com "usar uma variável"** — no Portugol, você primeiro *declara* (`var numero: inteiro`) e só depois *usa* (`leia(numero)`). Vamos entender variáveis a fundo no Módulo 3.
+2. **Desenhar fluxogramas sem seta de direção clara.** Todo fluxograma precisa deixar óbvio "o que vem depois do quê", sem isso, ele perde a utilidade.
+3. **Esquecer de fechar as estruturas no pseudocódigo/Portugol** (por exemplo, esquecer o `FIM SE` ou `fimse`), isso é como abrir um parêntese e não fechar.
+4. **Confundir "declarar uma variável" com "usar uma variável"**, no Portugol, você primeiro *declara* (`var numero: inteiro`) e só depois *usa* (`leia(numero)`). Vamos entender variáveis a fundo no Módulo 3.
 
 ---
 
 ## ✅ Boas práticas desde já
 
-- Ao resolver um exercício, **desenhe o fluxograma ou escreva o pseudocódigo antes de "codar de verdade"** em qualquer linguagem — isso vira um hábito valiosíssimo mesmo quando você já for experiente.
+- Ao resolver um exercício, **desenhe o fluxograma ou escreva o pseudocódigo antes de "codar de verdade"** em qualquer linguagem, isso vira um hábito valiosíssimo mesmo quando você já for experiente.
 - Nomeie os passos e variáveis de forma **clara e descritiva** (`media`, `notaFinal`) em vez de nomes genéricos (`x`, `coisa`).
-- Sempre teste seu algoritmo "na mão", com números de exemplo, antes de considerá-lo pronto — como se você mesmo fosse o computador executando o passo a passo.
+- Sempre teste seu algoritmo "na mão", com números de exemplo, antes de considerá-lo pronto, como se você mesmo fosse o computador executando o passo a passo.
 
 ---
 
@@ -371,7 +371,7 @@ FIM
 ### Desafios
 
 16. **Desafio do tradutor:** pegue qualquer um dos algoritmos que você escreveu nos exercícios anteriores e represente-o nas **quatro formas** que aprendemos neste módulo (sequência em palavras, fluxograma, pseudocódigo e Portugol).
-17. **Desafio do fluxograma complexo:** desenhe o fluxograma de um algoritmo que leia um número e diga se ele é positivo, negativo ou zero (isso envolve duas decisões em sequência — pense com calma).
+17. **Desafio do fluxograma complexo:** desenhe o fluxograma de um algoritmo que leia um número e diga se ele é positivo, negativo ou zero (isso envolve duas decisões em sequência, pense com calma).
 
 ---
 
@@ -449,19 +449,19 @@ fimalgoritmo
         │  Leia idade    │
         └───────┬────────┘
                 ▼
-             ╱     ╲
+             ╱      ╲
             ╱ idade  ╲
-           ╱  >= 18?   ╲
-            ╲          ╱
-             ╲        ╱
-          Sim │      │ Não
+           ╱  >= 18?  ╲
+           ╲          ╱
+            ╲        ╱
+         Sim │      │ Não
               ▼      ▼
       ┌──────────┐ ┌──────────┐
       │Escreva   │ │Escreva   │
       │"Maior de │ │"Menor de │
       │idade"    │ │idade"    │
       └────┬─────┘ └────┬─────┘
-           └──────┬──────┘
+           └──────┬─────┘
                   ▼
             ┌───────────┐
             │    Fim    │
@@ -498,7 +498,7 @@ inicio
 fimalgoritmo
 ```
 
-**10.** Resposta livre, mas o exemplo deve mostrar que, independentemente da forma escolhida (desenho, texto estruturado, ou "código" em Portugol), os **passos e decisões continuam sendo exatamente os mesmos** — só a "roupagem" muda.
+**10.** Resposta livre, mas o exemplo deve mostrar que, independentemente da forma escolhida (desenho, texto estruturado, ou "código" em Portugol), os **passos e decisões continuam sendo exatamente os mesmos**, só a "roupagem" muda.
 
 **11.**
 ```
@@ -521,25 +521,25 @@ FIM
         │  Início   │
         └─────┬─────┘
               ▼
-      ┌───────────────┐
+      ┌────────────────┐
       │ Leia nota1,2,3 │
       └───────┬────────┘
               ▼
-   ┌─────────────────────────┐
+   ┌────────────────────────────┐
    │ media←(nota1+nota2+nota3)/3│
-   └────────────┬──────────────┘
+   └────────────┬───────────────┘
               ▼
-           ╱      ╲
-          ╱ media   ╲
+           ╱        ╲
+          ╱ media    ╲
          ╱   >= 6?    ╲
-          ╲           ╱
-           ╲         ╱
-        Sim │       │ Não
+         ╲            ╱
+          ╲          ╱
+       Sim │        │ Não
             ▼       ▼
-    ┌──────────┐ ┌──────────┐
+    ┌──────────┐ ┌───────────┐
     │"Aprovado"│ │"Reprovado"│
     └────┬─────┘ └────┬──────┘
-         └──────┬──────┘
+         └──────┬─────┘
                 ▼
           ┌───────────┐
           │    Fim    │
@@ -571,7 +571,7 @@ INÍCIO
   ESCREVA "O valor final é: ", valorFinal
 FIM
 ```
-*Por que importa:* a frase original não dizia de onde vem o desconto nem como ele é calculado — o pseudocódigo obriga você a decidir e explicitar cada detalhe.
+*Por que importa:* a frase original não dizia de onde vem o desconto nem como ele é calculado, o pseudocódigo obriga você a decidir e explicitar cada detalhe.
 
 **15.**
 ```
@@ -595,23 +595,23 @@ FIM
               │  Início   │
               └─────┬─────┘
                     ▼
-            ┌───────────────┐
+            ┌────────────────┐
             │  Leia número   │
             └───────┬────────┘
                     ▼
-                 ╱      ╲
+                 ╱       ╲
                 ╱ número  ╲
                ╱   > 0?    ╲
-                ╲          ╱
-                 ╲        ╱
-              Sim │      │ Não
+               ╲           ╱
+                ╲         ╱
+             Sim │       │ Não
                   ▼      ▼
-          ┌──────────┐    ╱      ╲
+          ┌──────────┐    ╱       ╲
           │"Positivo"│   ╱ número  ╲
           └────┬─────┘  ╱   < 0?    ╲
-               │         ╲          ╱
-               │          ╲        ╱
-               │       Sim │      │ Não
+               │        ╲           ╱
+               │         ╲         ╱
+               │       Sim│       │ Não
                │           ▼      ▼
                │   ┌──────────┐ ┌──────────┐
                │   │"Negativo"│ │  "Zero"  │
@@ -622,7 +622,7 @@ FIM
                         │    Fim    │
                         └───────────┘
 ```
-*Por que é difícil:* esse problema tem **duas decisões encadeadas** (uma dentro do "senão" da outra) — essa estrutura se chama "decisão aninhada" e vamos formalizá-la no Módulo 6.
+*Por que é difícil:* esse problema tem **duas decisões encadeadas** (uma dentro do "senão" da outra), essa estrutura se chama "decisão aninhada" e vamos formalizá-la no Módulo 6.
 
 ---
 

@@ -75,8 +75,8 @@ logica-programacao/
 | # | Módulo | Status |
 |---|--------|--------|
 | 1 | [O que é programação](modulos/01-o-que-e-programacao.md) | ✅ Disponível |
-| 2 | Algoritmos | 🔜 Em breve |
-| 3 | Variáveis | 🔜 Em breve |
+| 2 | Algoritmos | ✅ Disponível |
+| 3 | Variáveis | ✅ Disponível  |
 | 4 | Operadores | 🔜 Em breve |
 | 5 | Entrada e saída de dados | 🔜 Em breve |
 | 6 | Estruturas condicionais | 🔜 Em breve |
